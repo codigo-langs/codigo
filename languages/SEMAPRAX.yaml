@@ -1,0 +1,82 @@
+name: SEMAPRAX
+description: SEMAPRAX is an experimental systems programming language designed around stable semantic identity and a versioned semantic graph for coding agents. Its Rust reference compiler performs ownership and contract checking and emits deterministic native C11 and WebAssembly Core artifacts. Version 0.2 is Apache-2.0 pre-alpha research software, not production-ready.
+file_extensions:
+  - spx
+category: programming
+status: experimental
+compilers:
+  - name: SEMAPRAX
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/wavect/semaprax
+    is_reference: true
+paradigms:
+  - imperative
+  - procedural
+  - generic
+  - modular
+  - structured
+typing:
+  system: static
+  type_checking: compile-time
+  strength: strong
+  inference: partial
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - C
+    - WebAssembly
+  runtime_environments:
+    - native OS process
+    - native binary
+    - browser
+    - WebAssembly
+domains:
+  primary:
+    - systems programming
+    - WebAssembly
+ecosystem:
+  maturity: very low
+  community_size: very small
+  learning_resources: very small
+  job_market_demand: very low
+language_features:
+  immutability: optional
+  enums: algebraic
+  generics: true
+  pattern_matching: true
+  null_safety: true
+  key_features:
+    - pattern matching
+    - algebraic data types
+    - ownership system
+    - modules
+    - generics
+    - contracts
+error_handling:
+  primary_mechanism: result types
+  features:
+    - custom error types
+    - error propagation
+    - validation
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: very low
+history:
+  inception: "2026-08-07"
+  developer:
+    - Wavect GmbH
+  described_by: SEMAPRAX RFC 0001
+official_website: https://wavect.io/semaprax/
+documentation:
+  quality: moderate
+  official_sources:
+    - https://github.com/wavect/semaprax
+    - https://github.com/wavect/semaprax/blob/main/docs/RFC-0001.md
+references:
+  github_topics:
+    - programming-language
+    - systems-programming
+    - semantic-graph
+    - webassembly
