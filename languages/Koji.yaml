@@ -112,7 +112,7 @@ standard_library:
     - concurrency
     - mathematics
     - date/time
-    - JSON
+    - serialization
     - regular expressions
     - CLI tools
     - process management
