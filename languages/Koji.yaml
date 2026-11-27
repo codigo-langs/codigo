@@ -20,7 +20,7 @@ typing:
   system: static
   structural: false
   strength: strong
-  inference: full
+  inference: partial
   type_checking: compile-time
   type_coercion: conservative
   type_annotations: optional
@@ -42,9 +42,7 @@ domains:
     - server-side applications
   secondary:
     - systems programming
-    - financial systems
   emerging:
-    - database management
     - data processing
 platforms:
   operating_systems:
@@ -104,7 +102,7 @@ error_handling:
     - error propagation
     - error formatting
     - error categories
-  stack_traces: true
+  stack_traces: false
 standard_library:
   maturity: low
   key_areas:
@@ -114,12 +112,11 @@ standard_library:
     - concurrency
     - mathematics
     - date/time
-    - JSON/XML processing
+    - JSON
     - regular expressions
-    - cryptography
     - CLI tools
     - process management
-  size: medium
+  size: small
 versioning:
   backwards_compatibility: very low
 history:
@@ -142,9 +139,8 @@ history:
       - imperative
       - procedural
       - structured
-official_website: https://koji-language.github.io/koji-website
+official_website: https://koji-lang.dev
 documentation:
-  quality: high
   official_sources:
     - https://koji-lang.dev/docs
     - https://koji-lang.dev/docs/stdlib.html
