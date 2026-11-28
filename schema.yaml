@@ -598,6 +598,7 @@ properties:
           - enforced
           - default
           - partial
+          - explicit
       enums:
         type: string
         description: Level of enumeration type support

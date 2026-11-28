@@ -1,0 +1,152 @@
+name: Koji
+description: Koji is a statically typed language, compiled to native machine code by a self-hosted compiler. Decimal arithmetic preserves exact base-10 values to 34 significant digits. Errors are values, and the code says what it does.
+category: programming
+status: active
+aliases:
+  - Koji Programming Language
+file_extensions:
+  - kj
+compilers:
+  - name: kojic
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/koji-language/koji
+    is_reference: true
+paradigms:
+  - imperative
+  - procedural
+  - structured
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - machine code
+  runtime_environments:
+    - native OS process
+    - native binary
+  performance:
+    startup_time: very fast
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: very fast
+domains:
+  primary:
+    - server-side applications
+  secondary:
+    - systems programming
+  emerging:
+    - data processing
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+  architectures:
+    - x86-64
+    - ARM64
+ecosystem:
+  maturity: very low
+  package_registry: none
+  community_size: very small
+  learning_resources: small
+  job_market_demand: very low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: explicit
+  enums: algebraic
+  metaprogramming: false
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: hybrid
+    level: very high
+  memory_management:
+    type: hybrid
+    implementation: Copy-on-write reference-counted values, move-only resources, unique ownership and automatic drop at scope exit.
+    manual_control: false
+  key_features:
+    - algebraic data types
+    - pattern matching
+    - type inference
+    - ownership system
+    - string interpolation
+    - modules
+    - generics
+    - native FFI
+concurrency:
+  model: fibers
+  features:
+    - green threads
+    - channels
+    - message passing
+    - shared memory
+  ease_of_use: high
+error_handling:
+  primary_mechanism: result types
+  features:
+    - custom error types
+    - error propagation
+    - error formatting
+    - error categories
+  stack_traces: false
+standard_library:
+  maturity: low
+  key_areas:
+    - file I/O
+    - file system operations
+    - networking
+    - concurrency
+    - mathematics
+    - date/time
+    - serialization
+    - regular expressions
+    - CLI tools
+    - process management
+  size: small
+versioning:
+  backwards_compatibility: very low
+history:
+  inception: 2025-04-10
+  developer:
+    - The Koji Authors
+  designed_by:
+    - Felipe Coletti
+  described_by: Koji Language Specification
+  influenced_by:
+    languages:
+      - TypeScript
+      - Python
+      - COBOL
+      - Haskell
+      - Go
+      - Swift
+      - Rust
+    paradigms:
+      - imperative
+      - procedural
+      - structured
+official_website: https://koji-lang.dev
+documentation:
+  official_sources:
+    - https://koji-lang.dev/docs
+    - https://koji-lang.dev/docs/stdlib.html
+    - https://koji-lang.dev/docs/design.html
+references:
+  github_topics:
+    - koji
+    - koji-language
+color: '#ffd372'
